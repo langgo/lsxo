@@ -1,6 +1,7 @@
 'use strict';
 
+const myutil = require('../lib/util');
+
 module.exports = function (args) {
-    console.log('这是个测试');
-    console.log(args);
+    console.log(myutil.md5('123456'));
 };
